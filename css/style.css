@@ -1,18 +1,21 @@
 /* General Styling */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #ffffff;
+    color: #070000;
+    background-color: #3fec14;
     margin: 0;
 }
 
 /* Header Styling */
 header {
-    background-color: #4682B4;
+    background-color: #3b3994;
     color: #fff;
     padding: 0.1rem;
     text-align: center;
+    
 }
+
+
 
 header nav ul {
     list-style: none;
@@ -20,11 +23,13 @@ header nav ul {
     justify-content: center;
     gap: 1rem;
     margin-top: 0.5rem;
+    
 }
 
 header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
+
+    color: #0e0101;
+    text-decoration: italics;
     font-weight: bold;
 }
 
@@ -40,18 +45,18 @@ header nav ul li a {
 }
 
 .jumbotron {
-    background-color: #46b4b4;
+    background-colour:
     color: #ffffff;
 }
 
 .enroll {
-    background-color: #4682B4;
+    background-color: #000508;
     color: #ffffff;
 }
 
 button {
     margin-top: 1rem;
-    background-color: #FF6347;
+    background-color: #070100;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -61,7 +66,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF4500;
+    background-color: #f6fdfd;
 }
 
 .course-list {
@@ -73,7 +78,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: #4682B4;
+    background-color: #0f0255;
     color: #ffffff;
     text-align: center;
     padding: 1rem;
@@ -81,16 +86,16 @@ footer {
 
 /* Section Background Colors */
 #about {
-    background-color: dimgrey;
+    background-color: rgb(233, 226, 226);
 }
 
 #courses {
-    background-color: thistle;
+    background-color: rgb(243, 7, 243);
 }
 
 /* Contact Us Section Styling */
 #contact {
-    background-color: lightblue;
+    background-color: rgb(9, 139, 172);
     padding: 1rem;
     height:200px; /* Set specific height */
     display: flex;
